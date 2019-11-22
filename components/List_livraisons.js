@@ -51,12 +51,7 @@ import Config from '../Utils/Config';
        
         let todaytournne = moment().format("2019-11-20")
         let link = Config.fullapiPath+'/livreurs/'+this.props.user.id+'/tournees/'+todaytournne
-            Axios.get(link,{
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': 'Bearer totot'+token
-                },
-              }).then((response)=>{
+            Axios.get(link).then((response)=>{
                 
                 
             }).catch((error)=>{

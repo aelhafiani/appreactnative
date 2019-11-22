@@ -8,7 +8,7 @@ class Splash extends Component {
 
 
     componentDidMount(){
- /*     AsyncStorage.getItem('app_token').then(()=>{
+     AsyncStorage.getItem('app_token').then(()=>{
         let link = Config.fullapiPath+Config.account
         Axios.get(link).then((response) => {
             this.props.dispatch({type:LOGIN_SUCCESS , user:response.data })
@@ -16,7 +16,7 @@ class Splash extends Component {
         })
         
     })
-*/
+
     }
 
     render() {
